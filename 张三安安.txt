@@ -1,1 +1,242 @@
-xiaoqiang
+https://blog.csdn.net/king_is_everyone/article/details/53261354  SpringBoot初始教程之SpringBoot-Metrics监控(十)
+https://blog.csdn.net/ai_xiangjuan/article/details/75808152#comments Netty事件循环--无锁化
+https://blog.csdn.net/qq_35915384/article/category/6860258   学习 Spring Boot：（二十九）Spring Boot Junit 单元测试
+http://www.cnblogs.com/FlyAway2013/p/9325517.html  spring cloud整合 websocket 的那些事
+
+https://blog.csdn.net/hry2015/article/category/7567397  websocket rabbitmq 重点学习
+
+
+
+，并且使用了socketjs，对不支持websocket的浏览器可以模拟websocket使用
+
+spring对websocket的支持
+Spring4.0以后引入了对websocket的支持 。相信你已经搭建了SpringMVC的开发框架。所以这里只给出websocket的相关依赖:     
+  <dependency>  	  <groupId>org.springframework</groupId>  	  <artifactId>spring-websocket</artifactId>  	
+  <version>4.0.1.RELEASE</version>  	</dependency>	<dependency>  	  <groupId>org.springframework</groupId>  	 
+  <artifactId>spring-messaging</artifactId>  	  <version>4.0.1.RELEASE</version>  	
+  </dependency>
+
+https
+http://blog.51cto.com/wzlinux/1908856  我们来一起说说HTTPS中间人***与证书校验
+https://www.cnblogs.com/wh4am1/p/6616856.html  谈HTTPS中间人攻击与证书校验（二）
+https://www.2cto.com/article/201607/523509.html
+https://www.jianshu.com/p/f6b34381beac 
+https://blog.csdn.net/lijiecong/article/details/6337932
+https://www.cnblogs.com/leslies2/p/7442956.html 数字证书应用综合揭秘（包括证书生成、加密、解密、签名、验签）
+
+
+
+https://www.jianshu.com/p/0cf602f96e25 探究SpringJMS+ActiveMQ消息阻塞之谜
+https://www.cnblogs.com/yuluoxingkong/p/7676089.html  Jackson 工具类使用及配置指南
+https://www.cnblogs.com/snowater/p/7804889.html HTTPS协议、TLS协议、证书认证过程解析
+https://www.xncoding.com/2017/11/16/web/https.html  HTTPS系列干货（一）：HTTPS 原理详解
+https://my.oschina.net/lifany/blog/884002  Java 线程池的异常处理机制 值得看
+https://blog.52itstyle.com/archive.html 
+http://bijian1013.iteye.com/blog/2309671  深入理解DefaultMessageListenerContainer
+
+
+rabbitmq
+https://blog.csdn.net/convict_eva/article/details/52438732 rabbitmq 连接、通道及线程池说明和配置
+https://www.jianshu.com/u/9f9214a11adb 二月_春风 RabbitMQ笔记二十四：RabbitMQ异常处理 看看
+https://blog.csdn.net/zhanglf02/article/details/77584012
+https://blog.csdn.net/saytime/article/details/80541426
+https://blog.csdn.net/anumbrella/article/details/81321701
+https://blog.csdn.net/chenxyt/article/details/79259838
+https://www.jianshu.com/p/1ee6be549fda rabbitmq 两种模式下（事务/发布确认）性能对比
+https://www.cnblogs.com/gordonkong/p/6952957.html  RabbitMQ入门_06_深入了解ack
+https://blog.csdn.net/xiaolyuh123/article/details/80627896 RabbitMQ 延迟队列
+https://blog.csdn.net/u013871100/article/details/82378090 重磅发布-RabbitMQ实战系列完整视频教程
+http://elim.iteye.com/blog/1893676  Spring整合JMS(二)——三种消息监听器
+https://blog.csdn.net/adrian_dai/article/details/80732758 SpringBoot整合RabbitMQ（二）：定制MessageConverter
+https://geewu.gitbooks.io/rabbitmq-quick/content/RabbitMQ%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96.html RabbitMQ性能优化
+http://www.cnblogs.com/wangiqngpei557/p/6158094.html  RabbitMQ 高可用集群搭建及电商平台使用经验总结
+
+springcloud
+https://blog.csdn.net/qq_38620276/article/details/81113587  SpringCloud微服务入门到精通
+https://www.cnblogs.com/niechen/category/1147629.html  专注Java后端技术 不错的
+https://blog.csdn.net/tornadojava/article/details/54580436  非SpringCloud如何调用SpringCloud服务
+https://www.cnblogs.com/leeSmall/p/8824802.html  SpringCloud系列五：Ribbon 负载均衡（Ribbon 基本使用、Ribbon 负载均衡、自定义 Ribbon 配置、禁用 Eureka 实现 Ribbon 调用）
+https://www.cnblogs.com/cjsblog/p/7986628.html  SpringCloud学习笔记(2)——Ribbon
+https://blog.csdn.net/qq_26323323/article/details/81327669  Ribbon源码深度解析
+https://blog.csdn.net/zhxdick/article/details/80334074   张哈希 重点Spring Cloud Ribbon 全解 （7） - SpringCloud环境下纯Ribbon（不包含Eureka）重试配置
+https://blog.csdn.net/wudiyong22/article/details/78656316  Spring Cloud学习笔记2——客户端服务调用及负载均衡
+https://www.cnblogs.com/kingszelda/p/8886403.html  关于HttpClient重试策略的研究
+http://www.sohu.com/a/229888020_505779 关于 HttpClient 重试策略的研究
+https://blog.csdn.net/a491857321/article/details/78143993 实现HttpClient重试
+https://blog.csdn.net/minicto/article/details/56677420 ranong项目总结-HttpClient-RetryHandler重试（一）
+https://segmentfault.com/p/1210000014406323  HttpClient默认重试策略不处理SocketTimeoutException
+http://www.importnew.com/28669.html  关于HttpClient重试策略的研究
+
+apollo
+https://github.com/nobodyiam/apollo-build-scripts
+https://blog.csdn.net/Michael_HM/article/details/80361214
+
+
+
+http://beijishiqidu.iteye.com/blog/2094144 常见hash算法的原理
+https://www.360zhijia.com/anquan/388529.html 密码学基本原理（上）
+https://segmentfault.com/a/1190000010990136 漫谈非加密哈希算法
+https://blog.csdn.net/q_an1314/article/details/53640042 Spring 4 WebSocket发送到指定用户：convertAndSendToUser函数 JDK锁的基础－－AQS实现原理（三）
+https://www.jianshu.com/p/88b76e870c63 Spring的TransactionEventListener
+https://blog.csdn.net/xiejx618/article/details/44600369  spring4.2更好的应用事件
+https://blog.csdn.net/mian_CSDN/article/details/53649470?locationNum=10&fps=1  关于双重检测锁的一种无volatile实现
+https://blog.csdn.net/mnb65482/article/details/80458571  深入理解单例模式：静态内部类单例原理
+https://blog.csdn.net/luanmousheng/article/details/77816412 线程池原理（四）：ScheduledThreadPoolExecutor kankan不错
+https://blog.csdn.net/yyx1025988443/article/details/78698046 spring scheduled的动态线程池调度和任务进度的监控
+http://elf8848.iteye.com/blog/1739598 Java Socket 几个重要的TCP/IP选项解析(一)
+https://blog.csdn.net/u012210451/article/details/51939077  AUTOWIRE_NO的作用
+https://my.oschina.net/u/1261452/blog/1922668  第三章 spring-bean之AutowireCapableBeanFactory（6）
+https://www.jianshu.com/p/e9329c8a59c2 Java元注解和注解的解析
+https://www.cnblogs.com/barrywxx/tag/JVM%E8%B0%83%E4%BC%98/   JVM调优
+
+
+https://blog.csdn.net/andy_zhang2007/article/details/78819331 缺省配置Springboot Web应用启动中准备 DispatcherServlet
+https://blog.csdn.net/songhaifengshuaige/article/details/54135389  messageConverter应用 帅天下 重点
+https://segmentfault.com/a/1190000015071720 2018-05-29 发布SpringBoot学习笔记--Web
+https://www.cnblogs.com/duanxz/p/4875153.html  @EnableWebMvc
+http://zhaox.github.io/java/2015/10/22/spring-mvc-exception-resolver  Xin Zhao  Spring MVC异常处理详解
+https://www.cnblogs.com/softidea/p/5981766.html Tomcat 的 ErrorPage 实现原理分析
+https://blog.csdn.net/github_32521685/article/details/50198467 Spring Boot自定义错误页面，Whitelabel Error Page处理方式
+https://blog.csdn.net/u012129558/article/details/79165684 springboot之WebMvcAutoConfiguration
+https://www.jianshu.com/p/a827ecdda99f  Spring Boot学习笔记02--深入了解自动配置
+Spring Boot干货系列：（十三）Spring Boot全局异常处理整理 https://juejin.im/post/5afd472ff265da0b873ab710
+https://sq.163yun.com/blog/article/187288338344722432  7.07Springboot异常和错误处理规范（上篇）
+https://blog.csdn.net/lqadam/article/details/80637335  @EnableWebMvc如何禁止@EnableAutoConfiguration
+https://www.jianshu.com/p/8235981da1cd  关于SSM以及Spring boot中对于Spring MVC配置的问题
+https://blog.csdn.net/j080624/article/details/80747669  SpringBoot - 错误处理机制与自定义错误处理实现
+https://www.cnblogs.com/FlyAway2013/p/7944568.html spring boot 错误处理之深度历险
+https://www.jianshu.com/p/c807e84c5f73  Spring Boot是如何调用到initializeBean()的？
+http://blog.51cto.com/6531501/2070185 Spring Core Container 源码分析三：Spring Beans 初始化流程分析 重点看看
+https://blog.csdn.net/hengyunabc/article/details/17056237  http response乱码的真相 横云断岭 重点看看
+http://blog.51cto.com/luecsc/1964056 给你一份Spring Boot核心知识清单
+https://blog.csdn.net/Zheng_junming/article/details/78230962 处理自动装配的歧义性
+https://www.jianshu.com/u/8e1110d27153 兴浩 重点看看
+https://blog.csdn.net/u010399009/article/details/79356188 springboot条件注解源码分析
+https://www.jianshu.com/p/d0e5f4805880  spring源码学习 - 注解bean的解析注册过程
+https://blog.csdn.net/zghwaicsdn/article/details/50776821  spring 源码研究---core包总结一
+https://www.yanshuo.me/p/48457  Spring5源码解析-使用Spring AnnotationUtils处理注解
+https://www.jianshu.com/p/52f8b7de1d76 Spring中的各种Utils（一）:PropertiesLoaderUtils
+https://blog.csdn.net/waterflying2015/article/details/80457907  Spring：各种注解
+https://blog.csdn.net/chs007chs/article/details/78592800 spring注解源码分析-解析和注入注解配置的资源
+https://blog.csdn.net/honghailiang888/article/details/74981445  【Spring实战】Spring注解配置工作原理源码解析
+https://www.jianshu.com/p/1d0fb7cd8a26  深入SpringBoot:自定义Conditional
+https://www.cnblogs.com/davidwang456/p/4199459.html  spring beans源码解读之--Bean的注解(annotation)
+https://blog.csdn.net/shenmaxiang/article/details/79456099 原spring源码分析(2)——Bean 定义的解析与Bean的注册
+
+
+
+messageconvert
+https://segmentfault.com/a/1190000012658289 SpringMVC HttpMessageConverter 匹配规则
+https://www.cnblogs.com/ChoviWu/p/8987895.html
+https://cloud.tencent.com/developer/article/1147018
+https://blog.csdn.net/qq924862077/article/details/55271959
+https://blog.csdn.net/YClimb/article/details/80857755
+https://segmentfault.com/a/1190000008829934 Spring Boot [集成-MyBatis]
+https://blog.csdn.net/a67474506/article/details/52013634
+https://www.jianshu.com/p/d51e1896a5f7 format SpringBoot源码分析之SpringBoot的启动过程
+
+java8：
+https://blog.csdn.net/zjq_1314520/article/details/73557031  Java8 方法引用-Method References
+https://blog.csdn.net/qq_34378776/article/category/6701234
+
+netty SpringBoot在Thread中注入Bean无效的解决方式
+https://www.cnblogs.com/stateis0/p/9062151.html  Netty 源码阅读的思考------耗时业务到底该如何处理 返回主页 莫那·鲁道
+https://baijiahao.baidu.com/s?id=1601668868126391996&wfr=spider&for=pc  netty线程模型运用到自己的项目之中
+https://www.cnblogs.com/lighten/p/8977871.html  Netty核心概念(7)之Java线程池
+https://blog.csdn.net/qingfengmuzhu1993/article/details/82888090
+
+
+unsafe
+https://blog.csdn.net/jjywen/article/details/51164330 Unsafe
+https://www.jianshu.com/p/9819eb48716a 关于Unsafe类的一点研究
+https://www.jianshu.com/u/0e154787dba2
+http://hpgary.iteye.com/blog/2404559 Java内存模型-JMM 和 jvm优化
+http://www.sohu.com/a/215510186_465221 漫画：什么是CAS机制？（进阶篇）
+https://blog.csdn.net/xieyuooo/article/details/8002321 java之annotation与框架的那些秘密 看看
+https://segmentfault.com/u/happyfish/answers
+
+
+
+resttemplate
+https://blog.csdn.net/congzi0424/article/details/51518819  Spring RestTemplate详解
+https://blog.csdn.net/blueheart20/article/details/80916517 Spring Boot之RestTemplate在URL中转义字符禁止转义的问题解决
+https://www.cnblogs.com/duanxz/p/3510622.html  RestTemplate实践
+http://rensanning.iteye.com/blog/2362105  Spring Boot 入门 - 进阶篇（4）- REST访问(RestTemplate)
+https://blog.csdn.net/yiifaa/article/details/77972171 Spring Boot(四)：利用注解自定义日期格式化
+https://www.xncoding.com/2017/07/06/spring/sb-restclient.html  SpringBoot系列 - 使用RestTemplate
+
+
+
+
+其他
+https://www.cnblogs.com/sigm/tag/%E6%9E%B6%E6%9E%84%E5%B8%88%E5%85%BB%E6%88%90/default.html?page=3  当前标签: 架构师养成 重点看看
+https://blog.csdn.net/u013897685/article/details/80258673  idea引用其他项目
+https://zhidao.baidu.com/question/487989014692400772.html E在数学中代表什么意思
+https://blog.csdn.net/x_i_y_u_e/article/details/46372023 Java TreeMap 介绍和使用
+https://www.cnblogs.com/szlbm/p/5504634.html  Comparable和Comparator的区别
+https://www.ibm.com/developerworks/cn/java/jackson-advanced-application/index.html?cm_mmc=dwchina-_-homepage-_-social-_-wechat Jackson 框架的高阶应用
+https://yanbin.blog/customize-jackson-annotation-and-disable-specific-annotation/  自定义 Jackson 注解与禁用某一特定的注解  隔叶黄莺 
+https://blog.csdn.net/coder_xia/article/details/70144949  tomcat keepAliveTimeout=0问题
+
+httpclient
+http://ouqi.iteye.com/blog/1844284 创]HttpClient连接池原理及一次连接时序图
+https://www.jianshu.com/p/363e3d7c235b HttpClient实战三：Spring整合HttpClient连接池 看看
+https://www.cnblogs.com/JustYong/p/5872296.html  C#中HttpClient使用注意：预热与长连接
+https://www.cnblogs.com/shoren/p/http-connection.html HTTP长连接、短连接使用及测试
+https://blog.csdn.net/jamal117/article/details/53873878 关于httpclient 连接失效引发的问题
+https://blog.csdn.net/dream_flying_bj/article/details/54709549 nginx优化——包括https、keepalive等
+https://www.cnblogs.com/worldwalker77/p/5623959.html tomcat根据繁忙线程数对keepalive进行动态调整
+https://www.cnblogs.com/kingszelda/p/8988505.html Http持久连接与HttpClient连接池
+https://blog.csdn.net/Jnhuy1668/article/details/42969011 httpclient源码分析-如何重用连接
+https://blog.csdn.net/qijiqiguai/article/details/76927159 HttpClient源码解析系列：第四篇：Connection是怎么生成和管理的
+https://segmentfault.com/a/1190000012343705 Apache HttpClient源码分析之连接池
+https://www.cnblogs.com/bethunebtj/p/8493379.html  高并发场景下的httpClient优化使用
+https://blog.csdn.net/hry2015/article/details/78965690 问题备忘: httpclient连接池异常引发的惨案 看看
+https://blog.csdn.net/chivalrousli/article/details/53466337 HttpClient超时机制(安全问题处理:访问超大文件控制)
+https://www.cnblogs.com/freefish12/p/5394876.html 什么是HTTP Keep-Alive呢？
+https://blog.csdn.net/shootyou/article/details/6615051 HttpClient连接池抛出大量ConnectionPoolTimeoutException: Timeout waiting for connection异常排查
+http://baijiahao.baidu.com/s?id=1583492416896231032&wfr=spider&for=pc  搜索系统16：从HttpClient学习连接池
+https://blog.csdn.net/super_scan/article/details/41451203 nginx keepalive_timeout 设置策略
+https://www.iyunv.com/thread-320412-1-1.html Nginx与Tomcat、Client之间请求的长连接配置不一致问题分析解决
+
+
+Common-pool2
+https://www.cnblogs.com/jinzhiming/p/5120623.html Apache Common-pool2对象池分析和应用
+http://blog.51cto.com/andrewli/2148179 基于Apache-Commons-Pool2实现Grpc客户端连接池
+https://segmentfault.com/a/1190000008262359 Redis的最佳拍档：Jedis
+http://zk-chs.iteye.com/blog/2308730 Grpc应用，搭配commons-pool2连接池实现连接复用
+http://shmilyaw-hotmail-com.iteye.com/blog/1986566 apache commons pool2: ObjectPool类族实现分析
+https://www.jianshu.com/p/b0189e01de35 Apache Commons-pool2（整理）
+http://brandnewuser.iteye.com/blog/2312071 JedisCluster中应用的Apache Commons Pool对象池技术
+http://www.qingpingshan.com/m/view.php?aid=384538 Apache Common Pool2对象池应用浅析
+
+
+websocket
+https://blog.csdn.net/qq_33547169/article/details/80084231
+https://blog.csdn.net/dwade_mia/article/details/79054590
+https://blog.csdn.net/qq_16504067/article/details/59112000
+https://juejin.im/post/5b7071ade51d45665816f8c0 WebSocket 的故事（二）—— Spring 中如何利用 STOMP 快速构建 WebSocket 广播式消息模式
+https://blog.csdn.net/jie873440996/article/details/70257558
+https://www.mobibrw.com/2016/5248  IntelliJ IDEA 2016.2使用Spring 4.3.1.RELEASE搭建基于Tomcat-7.0.68的WebSocket应用
+https://www.cnblogs.com/betterboyz/p/8669879.html 
+https://blog.csdn.net/bohu83/article/details/78811810 
+https://blog.csdn.net/yanlinwang/article/details/45648071 tomcat服务器解析（三）---- Handler for Endpoint
+https://blog.csdn.net/qq_21144985/article/details/72921104 使用SpringBoot快速搭建WebSocket实现消息推送
+https://www.cnblogs.com/zhuxiaojie/p/6238826.html
+http://blog.51cto.com/guojuanjun/1963498 一步步学WebSocket（1）声明式WebSocket
+https://blog.csdn.net/zlxls/article/details/78504591 websocket @ServerEndpoint注解说明
+https://blog.csdn.net/john_62/article/details/78083420
+http://blog.51cto.com/dba10g/1856234 websocket实战（4） websocket版贪食蛇游戏（tomcat官方自带）
+https://blog.csdn.net/iamhuanggua/article/details/62037693/ websocket之参数传递和依赖注入
+https://blog.csdn.net/flowingflying/article/details/65939014
+http://wiselyman.iteye.com/blog/2003336
+http://blog.51cto.com/shineman/1685235
+
+
+如果提示系统出错，请重试或联系系统负责人，请稍后几秒钟重试一下，因为通过Eureka注册的服务有一个刷新的延时。
+
+springboot 源码 gateway  dubbo spring  https://blog.csdn.net/lz710117239/article/category/7039656
+
+https://blog.csdn.net/github_38592071/article/details/80673415  芋艿V
+ 配置中心 Apollo 源码解析 —— 客户端 API 配置（三）之 ConfigFile
+ http://www.iocoder.cn/categories/Ribbon/
