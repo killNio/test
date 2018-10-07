@@ -1,0 +1,39 @@
+1 、MSMQ windows是自带的一个服务， message存放在文件系统中，最原始消息队列
+    集群 、消息确认、内存化、高可用、镜像
+2、Rabbitmq 本质是一个什么东西？
+   1 erlang语音编写 2、遵循amqp协议的，一个erlang代码实现
+   
+3、AMQP 0-9-1 Complete Reference Guide rabbitmq实现amqp协议的版本号
+   connection  ==》open use close
+   channel
+   exchange
+   queue
+   basic   发布和获取message一些设置
+   tx      事物
+   confirm 发布确认机制
+   
+二、步入Rabbitmq之教你如何在windows和centos上安装和使用
+1、mq是eralng编写的，故先要下载erlang
+下载地址: www.erlang.org/downloads
+windows是自带的一个服务， OTP 19.1 WINDOWS 64-BIT
+
+2 LINUX rabbitmq-server-generic-unix-3.6.5tar.gz
+
+插件 扩展rabbitmq
+查看是否安装成功
+
+1+2.
+
+
+3、rabbitmqctl 管理  找到http api
+  http api 也可以查看
+  admin UI工具
+  命令行所有命令
+  
+2、
+命令行分类rabbitmqctl [-n node]  [-t timeout] [-q] {command} [command options...]
+1 应用程序和集群管理 application and cluster managerment
+ erlang he rabbitmq 关系   一个是开发环境，一个程序
+  stop  erlang node
+  stop_app rabbitmq application
+  start app 
