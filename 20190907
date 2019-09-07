@@ -7,3 +7,19 @@ https://www.jianshu.com/p/345bc0da5553  ES 查询优化（一）
 https://www.cnblogs.com/xiaobaozi-95/p/9328948.html es的分词器analyzer
 https://blog.51cto.com/12970189/2416407  一文带你了解elasticsearch
 https://blog.csdn.net/f641385712/article/details/84679147  【小家Spring】Spring Boot中使用RedisTemplate优雅的操作Redis，并且解决RedisTemplate泛型注入失败的问题
+
+
+泛型依赖注入
+https://blog.csdn.net/pengxianzhe1/article/details/53522985
+https://www.jianshu.com/p/23fffcfc8626
+https://www.cnblogs.com/liuyk-code/p/7871940.html
+https://cloud.tencent.com/developer/article/1497575
+https://www.jianshu.com/p/1ff5c5ff9688
+https://blog.csdn.net/qq_36761831/article/details/88133065
+https://segmentfault.com/a/1190000011743906
+
+GET _analyze
+{
+  "analyzer": "standard",
+  "text":  "HELLO World"
+}
